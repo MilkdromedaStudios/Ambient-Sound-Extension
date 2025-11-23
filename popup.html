@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ambient MP3 Player</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="mini-player glass">
+      <div class="np-row">
+        <div class="label">Now playing:</div>
+        <div id="nowPlaying" class="ellipsis">—</div>
+      </div>
+      <div class="controls">
+        <button id="prevBtn" class="btn icon">⏮</button>
+        <button id="playPauseBtn" class="btn primary">Play</button>
+        <button id="nextBtn" class="btn icon">⏭</button>
+      </div>
+      <div class="vol-row">
+        <div class="label">Volume</div>
+        <input id="volume" type="range" min="0" max="100" value="80" />
+      </div>
+    </div>
+
+    <div class="sound-picker glass">
+      <label for="soundSelector" class="label">Choose ambient sound:</label>
+      <select id="soundSelector"></select>
+    </div>
+  </div>
+
+  <audio id="player" crossorigin="anonymous"></audio>
+  <script src="popup.js"></script>
+</body>
+</html>
