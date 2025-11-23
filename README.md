@@ -11,6 +11,6 @@ Pick a sound and hit “Open & Play.” A mini popup with the myNoise generator 
 
 Use Next/Prev to switch generators. “Focus player” brings the mini window to front if it’s behind other windows.
 
-#Note:
+# Note:
 
-I made this for my personal use. It is free to use for everybody else, but includes i-frames of [MySound](https://mynoise.net/) for the ambient sounds. 
+I made this for my personal use. 
